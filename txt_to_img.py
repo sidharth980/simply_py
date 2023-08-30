@@ -72,9 +72,9 @@ class Text_Image:
 
 sample = Text_Image()
 # print(sample.__check_length(200))
-# sample.convert_to_image("hello how are you this is sidharth")
-# sample.read_image('my.png')
-sample.convert_to_image_encrypted("hello",'my')
+# sample.convert_to_image("hello how are you , this is sidharth","my")
+# sample.read_image('my')
+# sample.convert_to_image_encrypted("hello",'my')
 
 
 # essay = """
@@ -87,4 +87,4 @@ sample.convert_to_image_encrypted("hello",'my')
 # The concept of an "essay" has been extended to other media beyond writing. A film essay is a movie that often incorporates documentary filmmaking styles and focuses more on the evolution of a theme or idea. A photographic essay covers a topic with a linked series of photographs that may have accompanying text or captions."""
 
 # sample.convert_to_image(essay,"essay")
-# sample.read_image("my")
+# sample.read_image("essay")
