@@ -70,7 +70,10 @@ class Text_Image:
         print(word_in_ascii*4-key)
             
 
-sample = Text_Image()
+
+if __name__ == "__main__":
+    print("hello")
+    sample = Text_Image()
 # print(sample.__check_length(200))
 # sample.convert_to_image("hello how are you , this is sidharth","my")
 # sample.read_image('my')
