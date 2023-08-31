@@ -6,9 +6,11 @@ class Organizer:
         "Music" : ["mp3","flac"],
         "Movies": ["avi", "mkv"],
         "Videos" : ["mp4"],
-        "Docs" : ["csv","pdf","doc"],
+        "Docs" : ["csv","pdf","docx","pptx",'xlsx'],
         "Scripts" : ['py'],
-        "Images" : ['jpg','png'],
+        "Executables" : ['exe'],
+        "Images" : ['jpg','png','jpeg','webp'],
+        "compressed" : ['zip','rar'],
         "Other" : [None]
     }
     def __init__(self):
@@ -26,7 +28,7 @@ class Organizer:
     def file_type_folder(self,file_name):
         file_type = file_name.split(".")[-1]
         for x,y in self.files_types.items():
-            if file_type in y:
+            if file_type.lower() in y:
                 return x
         return "Other"
 
